@@ -1,0 +1,166 @@
+@font-face {
+	font-family: fontMain;
+	src: url('Fonts/Main.ttf');
+}
+
+@font-face {
+	font-family: fontSec;
+	src: url('Fonts/Secondary.ttf');
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+}
+
+header {
+    background:linear-gradient(rgb(255, 104, 129) 10%, rgba(145, 145, 6, 0.9) 150%), url("../Images/header-eagle.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80%;
+    position: relative;
+}
+
+.headerFlex {
+    display: flex;
+}
+
+.textMain{
+    font-family: fontMain;
+}
+
+.textSec{
+    font-family: fontSec;
+}
+
+.imgTop{
+    width: 15px;
+    height: 15px;
+    margin-left: 20px;
+}
+
+.textLogo {
+    display: inline-block;
+    vertical-align: auto;
+    margin-left: 20%;
+    margin-top: 1%;
+    color: white;
+    font-size: 20px;
+    font-family: fontMain;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    height: 10%;
+    width: 40%;
+    margin-top: 2%;
+    margin-left: 25%;
+    margin-right: 10%;
+
+    color: white;
+    font-size: 13px;
+}
+
+.menuImages{
+    filter:invert(1);
+}
+
+.hideOverflow {
+    overflow: hidden;
+}
+
+.headerCenterFlex {
+    margin-top: 4%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+
+}
+
+.headerTemplate {
+    display: inline-block;
+    vertical-align: bottom;
+    font-size: 40px;
+    color: white;
+}
+
+.headerWelcome {
+    display: inline-block;
+    vertical-align: auto;
+    font-size: 60px;
+    color: white;
+    text-align: center;
+}
+
+.headerSeparator {
+    display: inline-block;
+    vertical-align: auto;
+    height: 2px;
+    width: 5%;
+    background-color: white;
+}
+
+.headerButtonLearn {
+    color: white;
+    text-align: center;
+    border: 2px solid white;
+    height: 20px;
+    width: 130px;
+}
+
+.headerTeleport {
+    position: absolute;
+    bottom: 5px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.transparentBlock {
+    width: 20%;
+}
+
+.teleport1,
+.teleport2,
+.teleport3,
+.teleport4,
+.teleport5 {
+    display: inline-block;
+    vertical-align: auto;
+    background-color: blue;
+    width: 10%;
+    height: 20px;
+}
+
+.underHeader {
+    background-color: aquamarine;
+    height: 20%;
+    max-height: 200px;
+}
+
+.HeaderInfoContainer {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    width: 60%;
+    height: 100%;
+    margin: 0% 0% 0% 20%;
+    text-align: center;
+}
+
+.headerInfo {
+    height: 100%;
+    width: 20%;
+    border-left: 1px solid white;
+    display: flex;
+    color: white;
+    font-size: 20px;
+}
+
+.rightBorder {
+    border-right: 1px solid white;
+}

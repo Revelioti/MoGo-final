@@ -1,0 +1,123 @@
+.section4Flex {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: space-around;
+    align-items: center;
+    margin-top: 60px;
+    height: 795px;
+}
+
+.section4Text {
+    font-size: 20;
+}
+
+.section4CenterText {
+    font-size: 40;
+}
+
+.section4Separator1 {
+    background-color: red;
+    display: inline-block;
+    vertical-align: auto;
+    width: 6%;
+    height: 0.6%;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.section4BottomText {
+    font-size: 10;
+}
+
+.section4Grid {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    background-color: transparent;
+    height: 400px;
+    width: 100%;
+}
+
+.s4Img {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.s4Img1 {
+    grid-area: 1 / 1 / 2 / 2;
+    background-image: url(../Images/im26.jpg);
+}
+
+.s4Img2 {
+    grid-area: 2 / 1 / 3 / 2;
+    background-image: url(../Images/im27.jpg);
+}
+
+.s4Img3 {
+    grid-area: 1 / 2 / 2 / 3;
+    background-image: url(../Images/im31.jpg);
+}
+
+.s4Img4 {
+    grid-area: 2 / 2 / 3 / 3;
+    background-image: url(../Images/im29.jpg);
+}
+
+.s4Img5 {
+    grid-area: 1 / 3 / 3 / 4;
+    background-image: url(../Images/im28.jpg);
+}
+
+.s4Img6 {
+    grid-area: 1 / 4 / 2 / 5;
+    background-image: url(../Images/im32.jpg);
+}
+
+.s4Img7 {
+    grid-area: 2 / 4 / 3 / 5;
+    background-image: url(../Images/im30.jpg);
+}
+
+.section4Footer {
+    display: flex;
+    background:linear-gradient(rgba(255, 255, 255, 0.8), rgba(0, 0, 0, 0.8) 150%), url(../Images/im33.jpg);
+    /* filter: blur(5px);     */
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.s4MapIcon{
+    display: inline-block;
+    vertical-align: auto;
+    width: 40px;
+    height: 40px;
+    background-image: url(../Icons/im11.png);
+    background-size: contain;
+    filter: contrast(50%) sepia(100%) hue-rotate(310deg) brightness(2) saturate(1000%);
+}
+
+.s4MapText{
+    color: red;
+    font-size: 20;
+    font-weight: bold;
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+
+.s4MapLine{
+    background-color: red;
+    display: inline-block;
+    vertical-align: auto;
+    width: 6%;
+    height: 4px;
+}

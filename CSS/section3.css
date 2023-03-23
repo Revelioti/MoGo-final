@@ -1,0 +1,93 @@
+.section3Flex {
+    display: flex;
+    height: 800px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: space-around;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.section3Text {
+    font-size: 20;
+}
+
+.section3CenterText {
+    font-size: 40;
+}
+
+.section3Separator1 {
+    background-color: red;
+    display: inline-block;
+    vertical-align: auto;
+    width: 6%;
+    height: 0.6%;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.section3BottomText {
+    font-size: 10;
+}
+
+.section3UpperIcons {
+    margin-top: 30px;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+
+.s3IconsContainer{
+    display: inline-block;
+    vertical-align: auto;
+    height: 100%;
+    width: 33%;
+    text-align: center;
+}
+
+.s3Icons {      
+    width: 90%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    margin: 8px;
+}
+
+.s3Icon1{
+    background-image: url(../Images/im17.jpg);
+}
+
+.s3Icon2{
+    background-image: url(../Images/im18.jpg);
+}
+
+.s3Icon3{
+    background-image: url(../Images/im19.jpeg);
+}
+
+.section3Footer {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    vertical-align: auto;
+    background-color: rgb(254,250,247);
+    height: 400px;
+    width: 100%;
+}
+
+.iconFooterS3{
+    width: 10%;
+    height: 80%;
+    margin: 10px;
+}
+
+.s3IconsBottomText{
+    font-size: 10;
+}
+
+.s3IconsBottomText{
+    font-size: 10;
+}
