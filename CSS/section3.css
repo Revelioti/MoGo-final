@@ -17,7 +17,7 @@
 }
 
 .section3Separator1 {
-    background-color: red;
+    background-color: var(--colorSeparators);
     display: inline-block;
     vertical-align: auto;
     width: 6%;
@@ -42,8 +42,7 @@
 }
 
 .s3IconsContainer {
-    display: inline-block;
-    vertical-align: auto;
+    vertical-align: auto;   
     height: 100%;
     width: 33%;
     text-align: center;
@@ -71,38 +70,72 @@
     background-image: url(../Images/im19.jpeg);
 }
 
+.s3MediaContainer {
+    display: flex;
+    width: 80%;
+    height: 20%;
+    overflow: hidden;
+    position: absolute;
+    background-color: transparent;    
+    padding: 10px;
+    filter: none;
+    z-index: 1;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.s3Media {
+    display: inline-block;
+    
+    background-size: contain;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    height: 0%;
+    width: 0%;
+}
+
+.s3M1{
+    background-image: url(../Icons/im12.png);
+}
+
+.s3M2{
+    background-image: url(../Icons/im13.png);
+}
+
+.s3M3{
+    background-image: url(../Icons/im14.png);
+}
+
+.s3M4{
+    background-image: url(../Icons/im15.png);
+}
+
+.s3IconHover:hover .s3MediaContainer {
+    background-color: var(--colorTo);
+    top:30%;
+    left: 5%;
+}
+
+.s3IconHover:hover .s3Media {
+    height: 80%;
+    width: 20%;
+}
+
 .s3IconHover:hover::after {
     content: "";
     display: inline-block;
     vertical-align: top;
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(to bottom right, #e77171, #d9e626);
+    background-image: linear-gradient(to bottom right, var(--colorFrom), var(--colorTo));
     opacity: 0.7;
 }
 
 .s3IconHover:hover {
     transform: translate(-15px, -15px);
     transition: 0.5s;
-    filter: drop-shadow(15px 15px 0px #748DFF);
+    filter: drop-shadow(15px 15px 0px var(--colorBlue));
     z-index: 0;
-}
-
-.s3IconHover:hover::before {
-    text-align: center;
-    content: '';
-    position: absolute;
-    top: calc(50% - 40px);
-    right: 20%;
-    width: 50%;
-    height: 40px;
-    padding: 10px;
-    background-image: url(https://www.freeiconspng.com/thumbs/camera-icon/camera-icon-png--clipart-best-23.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center center;
-    filter: invert(1);
-    z-index: 1;
 }
 
 .section3Footer {
@@ -111,7 +144,7 @@
     justify-content: space-around;
     align-items: center;
     vertical-align: auto;
-    background-color: rgb(254, 250, 247);
+    background-color: rgb(255,251,248);
     height: 350px;
     width: 80%;
 }

@@ -8,15 +8,43 @@
 	src: url('../Fonts/Secondary.ttf');
 }
 
+::-webkit-scrollbar{
+	Width:10px;
+    height: 100%;
+    border-radius: 2px;
+}
+
+::-webkit-scrollbar-track { background-color: var(--colorFrom); }
+::-webkit-scrollbar-thumb { background-color: var(--colorTo); }
+::-webkit-scrollbar-thumb:hover{
+    background-color: var(--colorToBright)
+}
+
+::selection{
+    Color: var(--colorFrom);
+    Background-color: var(--colorToBright);
+    }
+    
+
 html,
 body {
     height: 100%;
     width: 100%;
     margin: 0px;
+
+    --colorFrom: rgb(255, 104, 129);
+    --colorTo: rgba(145, 145, 6, 0.9);
+    --colorBlue: rgb(149,225,212);
+    --colorSeparators: rgb(224, 46, 46);
+    --colorFooters: rgb(248,248,248);
+    --colorToBright: rgb(221, 218, 31);
+
+    cursor: url(../Icons/cursore.png), auto;
+    
 }
 
 header {
-    background:linear-gradient(rgb(255, 104, 129) 10%, rgba(145, 145, 6, 0.9) 150%), url("../Images/header-eagle.png");
+    background:linear-gradient(var(--colorFrom) 10%, var(--colorTo) 150%), url("../Images/header-eagle.png");
     background-position: center;
     background-repeat: no-repeat;
     height: 80%;
@@ -138,7 +166,7 @@ header {
 }
 
 .underHeader {
-    background-color: aquamarine;
+    background-color: var(--colorBlue);
     height: 20%;
     max-height: 200px;
 }

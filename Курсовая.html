@@ -7,35 +7,13 @@
 		- полная адаптивность сайта при максимальном сжатии экрана. На мобильных устройствах все должно быть отлично во всех положениях 
 		  экрана (портретный, альбомный). Не просто уменьшино, а именно перестроена структура под текущий размер экрана 
 
-		- у всех изображений есть эффект наведения (затемнение, размытие, повороты и повление внутри текста, иконок и т.д.) 
-
-		- у каждой кнопки есть эффект наведения
- 
-		- если где-то показан какой-то эффект у вас должно быть точно такой  (цвет текст другой, черта есть, рамка, иконки и цвет внутри 
-          картинки,градиент и т.д.)  
-
 		- если есть кнопка скрытого меню и т.д. ( квадрат с тремя полосками и прочее ), значит - по клику на нее должно появляются меню или 
           панель, любая 
 
 		- под мобильную версию обязательно бургер меню ( все меню прячете и показываете кнопку, по которой покажется мобильное меню )
 
-		- по клику на пункты меню - страница должна прокручиватся к определенной секции( какой пункт на какую секцию ведет - сами рещаете, 
-          должны идти подряд)
-
 		- все кнопки являются ссылками, либо якорными либо никуда не ведут, но обязательно ссылками ( должен обязательно быть атрибут href, 
           но он может быть пустым)
-
-		- в обязательном порядке используйте переменные, но только в тех местах, где они нужны
-		
-		- должны быть указаны мета данные : автор, в чем написан сайт, его версия, ключевые слова, описание, иконка и название сайта, язык
-
-		- работа полностью должны проходить валидацию(убрать все ошибки, warn-ы можно оставить, если сможете пояснить их причину)
-
-		- скроллбар должен быть кастомным, в стиле сайта ( в firefox может не работать - это приемлемо) 
-
-		- обязательно использовать вендарные префиксы для слабо поддерживаемых, не стандартных или новых свойств (которые недавно добавлены) 
-
-		- в работе должен быть кастомный курсор, подходящий по стилю и цветовой гамме к работе 
 
 		- цвет выделения текста в проекте не должен быть стандартным и должен подходить по цвета макета 
 -->
@@ -45,6 +23,14 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="author" content="Revelioti Viktor">
+    <meta name="description" content="Course work for IT Step academy">
+    <meta name="keywords" content="IT Step, website, cource work, MoGo">
+    <meta version="24.3.1">
+
+    <link rel="icon" type="image/png" href="./Icons/imIcon.png">
+    <title>MoGo</title>
+
     <link rel="stylesheet" href="./CSS/header.css" />
     <link rel="stylesheet" href="./CSS/section1.css" />
     <link rel="stylesheet" href="./CSS/section2.css" />
@@ -192,10 +178,10 @@
                         Obcaecati, ducimus, eaque nostrum enim aperiam architecto in quos doloribus rerum at,
                         repellendus
                         pariatur provident doloremque quidem ullam maxime!"</i></span>
-                        <div class="s2FooterTextContainer">
-                <div class="s2FooterRedLine"></div>
-                <span class="s2PanelText">Jon Doe</span>
-            </div>
+                <div class="s2FooterTextContainer">
+                    <div class="s2FooterRedLine"></div>
+                    <span class="s2PanelText">Jon Doe</span>
+                </div>
             </div>
             <img src="./Icons/im34.png" class="iconArrowRight" alt="">
         </footer>
@@ -210,19 +196,41 @@
         <div class="section3BottomText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt officiis
             blanditiis ut numquam ullam fugiat voluptatem nostrum deserunt sunt accusantium, quod unde modi reiciendis
             similique repellat id soluta praesentium quia.</div>
+
         <div class="section3UpperIcons">
             <div class="s3IconsContainer">
-                <div class="s3Icon1 s3Icons s3IconHover"></div>
+                <div class="s3Icon1 s3Icons s3IconHover">
+                    <div class="s3MediaContainer">
+                        <div class="s3Media s3M1"></div>
+                        <div class="s3Media s3M2"></div>
+                        <div class="s3Media s3M3"></div>
+                        <div class="s3Media s3M4"></div>
+                    </div>
+                </div>
                 <span class="s3IconsText">Lorem Ipsum</span><br>
                 <span class="s3IconsBottomText">Lorem Ipsum</span>
             </div>
             <div class="s3IconsContainer">
-                <div class="s3Icon2 s3Icons s3IconHover"></div>
+                <div class="s3Icon2 s3Icons s3IconHover">
+                    <div class="s3MediaContainer">
+                        <div class="s3Media s3M1"></div>
+                        <div class="s3Media s3M2"></div>
+                        <div class="s3Media s3M3"></div>
+                        <div class="s3Media s3M4"></div>
+                    </div>
+                </div>
                 <span class="s3IconsText">Lorem Ipsum</span><br>
                 <span class="s3IconsBottomText">Lorem Ipsum</span>
             </div>
             <div class="s3IconsContainer">
-                <div class="s3Icon3 s3Icons s3IconHover"></div>
+                <div class="s3Icon3 s3Icons s3IconHover">
+                    <div class="s3MediaContainer">
+                        <div class="s3Media s3M1"></div>
+                        <div class="s3Media s3M2"></div>
+                        <div class="s3Media s3M3"></div>
+                        <div class="s3Media s3M4"></div>
+                    </div>
+                </div>
                 <span class="s3IconsText">Lorem Ipsum</span><br>
                 <span class="s3IconsBottomText">Lorem Ipsum</span>
             </div>

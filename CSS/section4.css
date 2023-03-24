@@ -17,7 +17,7 @@
 }
 
 .section4Separator1 {
-    background-color: red;
+    background-color: var(--colorSeparators);
     display: inline-block;
     vertical-align: auto;
     width: 6%;
@@ -121,7 +121,7 @@
 }
 
 .s4MapText{
-    color: red;
+    color: var(--colorSeparators);
     font-size: 20;
     font-weight: bold;
     margin-top:20px;
@@ -134,7 +134,7 @@
 }
 
 .s4MapLine{
-    background-color: red;
+    background-color: var(--colorSeparators);
     display: inline-block;
     vertical-align: auto;
     width: 6%;
@@ -152,7 +152,7 @@
     vertical-align: top;
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(to bottom right, #e77171, #d9e626);
+    background-image: linear-gradient(to bottom right, var(--colorFrom), var(--colorTo));
     opacity: 0.7;
 }
 

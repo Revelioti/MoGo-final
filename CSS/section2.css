@@ -17,7 +17,7 @@
 }
 
 .section2Separator1 {
-    background-color: red;
+    background-color: var(--colorSeparators);
     display: inline-block;
     vertical-align: auto;
     width: 6%;
@@ -51,6 +51,11 @@
     background-repeat: no-repeat;
     background-position: 50% 50%;
     margin: 8px;
+}
+
+.s2Icon1:hover{
+    transform: scale(1.04);
+    transition: 1s;
 }
 
 .s2PanelText{
@@ -113,7 +118,7 @@
 }
 
 .s2FooterRedLine {
-    background-color: red;
+    background-color: var(--colorSeparators);
     display: inline-block;
     vertical-align: auto;
     width: 8%;
@@ -133,7 +138,7 @@
     margin-top: 50px;
     display: flex;
     vertical-align: auto;
-    background-color: rgb(231, 231, 231);
+    background-color: var(--colorFooters);
     height: 650px;
     width: 100%;
     align-items: center;

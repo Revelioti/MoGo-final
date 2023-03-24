@@ -22,7 +22,7 @@
 }
 
 .section1Separator1{
- background-color: red;
+ background-color: var(--colorSeparators);
  display: inline-block;
  vertical-align: auto;
  width: 6%;
@@ -63,7 +63,7 @@
 }
 
 .section1Separator2{
-    background-color: gray;
+    background-color: var(--colorFooters);
     display: inline-block;
     vertical-align: auto;
     width: 80%;
@@ -76,7 +76,7 @@
 }
 
 .section1Separator3{
-    background-color: rgb(75, 219, 245);
+    background-color: var(--colorBlue);
     display: inline-block;
     vertical-align: auto;
     width: 100%;
