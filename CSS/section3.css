@@ -9,11 +9,11 @@
 }
 
 .section3Text {
-    font-size: 20;
+    font-size: 30;
 }
 
 .section3CenterText {
-    font-size: 40;
+    font-size: 30;
 }
 
 .section3Separator1 {
@@ -27,7 +27,10 @@
 }
 
 .section3BottomText {
-    font-size: 10;
+    font-size: 14;
+    max-width: 80%;
+    color: gray;
+    text-align: center;
 }
 
 .section3UpperIcons {
@@ -38,7 +41,7 @@
     justify-content: center;
 }
 
-.s3IconsContainer{
+.s3IconsContainer {
     display: inline-block;
     vertical-align: auto;
     height: 100%;
@@ -46,7 +49,7 @@
     text-align: center;
 }
 
-.s3Icons {      
+.s3Icons {
     width: 90%;
     height: 100%;
     background-size: cover;
@@ -55,39 +58,81 @@
     margin: 8px;
 }
 
-.s3Icon1{
+.s3Icon1 {
+    margin-left: 20px;
     background-image: url(../Images/im17.jpg);
 }
 
-.s3Icon2{
+.s3Icon2 {
     background-image: url(../Images/im18.jpg);
 }
 
-.s3Icon3{
+.s3Icon3 {
     background-image: url(../Images/im19.jpeg);
 }
 
+.s3IconHover:hover::after {
+    content: "";
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to bottom right, #e77171, #d9e626);
+    opacity: 0.7;
+}
+
+.s3IconHover:hover {
+    transform: translate(-15px, -15px);
+    transition: 0.5s;
+    filter: drop-shadow(15px 15px 0px #748DFF);
+    z-index: 0;
+}
+
+.s3IconHover:hover::before {
+    text-align: center;
+    content: '';
+    position: absolute;
+    top: calc(50% - 40px);
+    right: 20%;
+    width: 50%;
+    height: 40px;
+    padding: 10px;
+    background-image: url(https://www.freeiconspng.com/thumbs/camera-icon/camera-icon-png--clipart-best-23.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    filter: invert(1);
+    z-index: 1;
+}
+
 .section3Footer {
-    margin-top: 100px;
+    margin-top: 150px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     vertical-align: auto;
-    background-color: rgb(254,250,247);
-    height: 400px;
-    width: 100%;
+    background-color: rgb(254, 250, 247);
+    height: 350px;
+    width: 80%;
 }
 
-.iconFooterS3{
+.iconFooterS3 {
     width: 10%;
     height: 80%;
     margin: 10px;
 }
 
-.s3IconsBottomText{
+.s3IconsBottomText {
+    font-size: 12;
+    color: gray;
+    font-style: italic;
+}
+
+.s3IconsBottomText {
     font-size: 10;
 }
 
-.s3IconsBottomText{
-    font-size: 10;
+.s3IconsText {
+    font-size: 16;
+    font-family: fontMain;
 }

@@ -9,11 +9,11 @@
 }
 
 .section2Text {
-    font-size: 20;
+    font-size: 30;
 }
 
 .section2CenterText {
-    font-size: 40;
+    font-size: 30;
 }
 
 .section2Separator1 {
@@ -27,7 +27,10 @@
 }
 
 .section2BottomText {
-    font-size: 10;
+    font-size: 14;
+    max-width: 80%;
+    text-align: center;
+    color:gray;
 }
 
 .section2UpperIcons {
@@ -50,6 +53,13 @@
     margin: 8px;
 }
 
+.s2PanelText{
+    color: gray;
+    font-family: fontSec;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
 .iconNorm {
     width: 60px;
     height: 60px;
@@ -67,22 +77,47 @@
     filter: contrast(50%);
 }
 
+.iconArrowLeft:hover{
+    filter: grayscale(1);
+    transform: scale(1.4);
+    transition: 2s;
+}
+
 .iconArrowRight{
     transform: rotate(180deg);
-    margin-left: 10%;
     width: 15px;
     height: 15px;
     margin-right: 10%;
     filter: contrast(50%);
 }
 
+.iconArrowRight:hover{
+    filter: grayscale(1);
+    transform: scale(1.4) rotate(180deg);
+    transition: 2s;
+}
+
+.s2FooterText{
+    color: gray;
+}
+
+.s2DivContainer{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    height: 80%;
+}
+
+.s2FooterTextContainer{
+    margin-bottom: 20px;
+}
+
 .s2FooterRedLine {
     background-color: red;
     display: inline-block;
     vertical-align: auto;
-    width: 6%;
-    height: 2%;
-    margin-bottom: 5px;
+    width: 8%;
+    height: 2px;
 }
 
 .s2Icon2 {
@@ -99,8 +134,9 @@
     display: flex;
     vertical-align: auto;
     background-color: rgb(231, 231, 231);
-    height: 400px;
+    height: 650px;
     width: 100%;
     align-items: center;
     column-gap: 50px;
+    overflow: hidden;
 }

@@ -9,7 +9,7 @@
 }
 
 .section1Text{
-    font-size: 25;
+    font-size: 30;
 }
 
 .section1BottomText{
@@ -34,7 +34,7 @@
 .s1PanelText{
     font-family: 'Times New Roman', Times, serif;
     font-size: 12px;
-    color: rgb(129, 129, 129);
+    color: gray;
 }
 
 .section1UpperIcons, .section1BottomIcons
