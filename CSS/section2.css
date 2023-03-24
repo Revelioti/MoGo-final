@@ -9,11 +9,11 @@
 }
 
 .section2Text {
-    font-size: 30;
+    font-size: 30px;
 }
 
 .section2CenterText {
-    font-size: 30;
+    font-size: 30px;
 }
 
 .section2Separator1 {
@@ -30,7 +30,7 @@
     font-size: 14;
     max-width: 80%;
     text-align: center;
-    color:gray;
+    color: gray;
 }
 
 .section2UpperIcons {
@@ -53,12 +53,12 @@
     margin: 8px;
 }
 
-.s2Icon1:hover{
+.s2Icon1:hover {
     transform: scale(1.04);
     transition: 1s;
 }
 
-.s2PanelText{
+.s2PanelText {
     color: gray;
     font-family: fontSec;
     font-size: 20px;
@@ -75,20 +75,20 @@
     border: 2px solid black;
 }
 
-.iconArrowLeft{
+.iconArrowLeft {
     margin-left: 10%;
     width: 15px;
     height: 15px;
     filter: contrast(50%);
 }
 
-.iconArrowLeft:hover{
+.iconArrowLeft:hover {
     filter: grayscale(1);
     transform: scale(1.4);
     transition: 2s;
 }
 
-.iconArrowRight{
+.iconArrowRight {
     transform: rotate(180deg);
     width: 15px;
     height: 15px;
@@ -96,17 +96,17 @@
     filter: contrast(50%);
 }
 
-.iconArrowRight:hover{
+.iconArrowRight:hover {
     filter: grayscale(1);
     transform: scale(1.4) rotate(180deg);
     transition: 2s;
 }
 
-.s2FooterText{
+.s2FooterText {
     color: gray;
 }
 
-.s2DivContainer{
+.s2DivContainer {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -114,7 +114,7 @@
     height: 80%;
 }
 
-.s2FooterTextContainer{
+.s2FooterTextContainer {
     margin-bottom: 20px;
 }
 
@@ -131,7 +131,7 @@
     vertical-align: auto;
     height: 100%;
     width: 40%;
-    background-color: greenyellow;
+    background-color: var(--colorFooters);
     margin: 8px;
 }
 

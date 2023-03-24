@@ -5,15 +5,15 @@
     align-content: space-around;
     align-items: center;
     margin-top: 60px;
-    height: 795px;
+    height: 789px;
 }
 
 .section4Text {
-    font-size: 30;
+    font-size: 30px;
 }
 
 .section4CenterText {
-    font-size: 30;
+    font-size: 30px;
 }
 
 .section4Separator1 {
@@ -88,7 +88,7 @@
 
 .section4Footer {
     display: flex;
-    background:linear-gradient(rgba(255, 255, 255, 0.8), rgba(0, 0, 0, 0.8) 150%), url(../Images/im33.jpg);
+    background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(0, 0, 0, 0.8) 150%), url(../Images/im33.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 200px;
@@ -99,12 +99,12 @@
     z-index: 1;
 }
 
-.section4Footer:hover{
+.section4Footer:hover {
     filter: brightness(1.4);
     transition: 1s;
 }
 
-.s4MapIcon{
+.s4MapIcon {
     display: inline-block;
     vertical-align: auto;
     width: 40px;
@@ -115,25 +115,25 @@
     z-index: 2;
 }
 
-.s4MapIcon:hover{
+.s4MapIcon:hover {
     transition: 1s;
     transform: translateY(-10px);
 }
 
-.s4MapText{
+.s4MapText {
     color: var(--colorSeparators);
     font-size: 20;
     font-weight: bold;
-    margin-top:20px;
+    margin-top: 20px;
     margin-bottom: 20px;
 }
 
-.s4MapText:hover{
+.s4MapText:hover {
     transition: 1s;
     transform: translateY(-10px);
 }
 
-.s4MapLine{
+.s4MapLine {
     background-color: var(--colorSeparators);
     display: inline-block;
     vertical-align: auto;
@@ -141,7 +141,7 @@
     height: 4px;
 }
 
-.s4MapLine:hover{
+.s4MapLine:hover {
     transition: 1s;
     transform: translateY(-10px);
 }
