@@ -43,6 +43,42 @@ body {
     
 }
 
+.fixedButtonTop{
+    position: fixed;
+  bottom: 80px;
+  right: 20px;
+  display: inline-block;
+  vertical-align: top;
+  border-radius: 50%;
+  background: url("../Icons/im37.png"), linear-gradient(var(--colorFrom) 50%, var(--colorTo) 150%);
+  border: 2px solid var(--colorTo);
+  background-size: contain;
+  width: 20px;
+  height: 20px;
+  z-index: 999;
+}
+
+.fixedButtonBottom{
+    position: fixed;
+  top: 80px;
+  right: 20px;
+  display: inline-block;
+  vertical-align: top;
+  border-radius: 50%;
+  background: url("../Icons/im38.png"), linear-gradient(var(--colorFrom) 50%, var(--colorTo) 150%);
+  border: 2px solid var(--colorTo);
+  background-size: contain;
+  width: 20px;
+  height: 20px;
+  z-index: 999;
+}
+
+.fixedButtonBottom:hover .fixedButtonTop:hover{
+    transform: scale(1.5);
+    transition: 2s;;
+}
+
+
 header {
     background:linear-gradient(var(--colorFrom) 10%, var(--colorTo) 150%), url("../Images/header-eagle.png");
     background-position: center;

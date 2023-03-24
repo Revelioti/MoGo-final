@@ -62,7 +62,7 @@
     color: gray;
     font-family: fontSec;
     font-size: 20px;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
 }
 
 .iconNorm {
@@ -109,6 +109,7 @@
 .s2DivContainer{
     display: flex;
     flex-direction: column;
+    justify-content: flex-end;
     padding: 20px;
     height: 80%;
 }

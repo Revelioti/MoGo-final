@@ -96,22 +96,26 @@
 
 .s3M1{
     background-image: url(../Icons/im12.png);
+    filter: contrast(50%) sepia(100%) hue-rotate(320deg) brightness(1) saturate(500%);
 }
 
 .s3M2{
     background-image: url(../Icons/im13.png);
+    filter: contrast(50%) sepia(100%) hue-rotate(320deg) brightness(1) saturate(500%);
 }
 
 .s3M3{
     background-image: url(../Icons/im14.png);
+    filter: contrast(50%) sepia(100%) hue-rotate(320deg) brightness(1) saturate(500%);
 }
 
 .s3M4{
     background-image: url(../Icons/im15.png);
+    filter: contrast(50%) sepia(100%) hue-rotate(320deg) brightness(1) saturate(500%);
 }
 
 .s3IconHover:hover .s3MediaContainer {
-    background-color: var(--colorTo);
+    background-color: var(--colorToBright);
     top:30%;
     left: 5%;
 }
